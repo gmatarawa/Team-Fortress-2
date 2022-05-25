@@ -4,8 +4,6 @@ html {
 }
 
 body {
-  height: 100%;
-  width: 100%;
   background-image: url("bg.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -75,4 +73,18 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 40%;
+}
+
+.visible-title {
+    visibility: visible;
+}
+
+header {
+  display: inline-block;
+  color: #b35215;
+  text-align: center;
+  background-color: #ece1da;
+  padding: 9px 22px;
+  text-decoration: none;
+  font-size: 26px;
 }
