@@ -9,6 +9,59 @@ body {
   background-repeat: no-repeat;
 }
 
+
+.main {
+  width: 50%;
+  margin: auto;
+  background: #b35215;
+  border-radius: 15px;
+  text-align: center;
+  padding: 4px;
+}
+
+section {
+  width: 60%;
+  margin: auto;
+}
+
+h1 {
+  color: #a3d3ff;
+  font-size: 40px;
+  /*font-family: 'IBM Plex Mono', monospace;*/
+  font-family: 'Lobster', cursive;
+}
+
+p {
+  color: #12f3ba;
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+  color: #a3d3ff;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 30px;
+}
+
+.normal a {
+  color: #12f3ba;
+  font-size: 17px;
+}
+
+.normal a:hover {
+  text-decoration: underline;
+  color: #61ffd7
+}
+
+.normal a:visited {
+  color: #34a9b2;
+}
+
+
+.intro {
+  font-size: 22px;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -19,6 +72,7 @@ ul {
 
 li {
   float: left;
+  font-family: 'Poppins', sans-serif;
 }
 
 li a, .dropbtn {
@@ -84,7 +138,37 @@ header {
   color: #b35215;
   text-align: center;
   background-color: #ece1da;
-  padding: 9px 22px;
+  padding: 11px 22px;
   text-decoration: none;
   font-size: 26px;
+  font-family: 'Lato', sans-serif;
 }
+
+nav {
+  position: sticky;
+  top: 0;
+}
+
+/*.button {
+  background-color: #b35215;
+  color: white;
+  border: none;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #dd7c3c;
+  color: white;
+}
+
+.button a {
+  color: white;
+  text-decoration: none;
+}*/
